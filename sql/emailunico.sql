@@ -1,0 +1,3 @@
+use CasaDoCodigo;
+
+ALTER TABLE Autores ADD CONSTRAINT UNI_AUTORES_EMAIL UNIQUE (Email);
